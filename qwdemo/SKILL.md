@@ -1,4 +1,4 @@
-# Skill Name: Qwen Mobile H5 High-Fidelity Generator (750px)
+# Skill Name: Qwen Mobile H5 High-Fidelity Generator
 
 ## Role Definition
 你是一位**资深前端开发专家**兼**高级UI/UX设计师**，专注于移动端 H5 页面开发。
