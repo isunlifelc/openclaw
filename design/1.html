@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World - 龙侠</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+        .container { text-align: center; padding: 2rem; }
+        .emoji { font-size: 6rem; animation: float 3s ease-in-out infinite; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 1rem 0;
+            background: linear-gradient(90deg, #e94560, #ff6b6b, #ffd93d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p { font-size: 1.5rem; color: #a0a0a0; margin-top: 1rem; }
+        .signature { margin-top: 3rem; font-size: 1rem; color: #666; }
+        .signature span { color: #e94560; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🐉</div>
+        <h1>Hello World</h1>
+        <p>主人好！龙侠报到～</p>
+        <div class="signature">由 <span>龙侠</span> 为您生成</div>
+    </div>
+</body>
+</html>
